@@ -1,0 +1,19 @@
+Activation Function
+--------------------
+    * Determines which nodes propagate information to next layer
+    * Filter & normalizes
+    * Convert output to nonlinear
+    * Critical in learning pattern
+
+
+Some Activation functions
+---------------------------
+
+Activation Function     output
+-------------------------------
+Sigmoid             ->  0 to 1
+Tanh                -> -1 to 1
+Rectified Linear    ->  0 if x < 0 ; x otherwise
+Softmax             ->  Vector of probablities with sum = 1
+
+

@@ -1,0 +1,23 @@
+Hidden layers
+---------------
+
+* ANN (artificial neural network) can have one or more hidden layers.
+* Each hidden layer can have one or more nodes (or perceptron) (count in 2n)
+
+
+Inputs & Outputs
+-----------------
+
+* The output of each node in the previous layer becomes the input for each node in current layer (fully connected)
+* Each node preodcues one output that is forwarded to next layer
+
+
+
+Determining Hidden Layer Architecture
+------------------------------------
+* Each node learns something about feature target relationship
+* More nodes & layers mean
+    Web application on AWS
+    Analytics on GCP
+* Architecture decided by experimentation
+

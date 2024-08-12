@@ -1,0 +1,57 @@
+""" 
+
+Logistic regression is Supervised learning model
+                       Classificatin model
+                       Best for binary classfication problem 
+                       Uses sigmoid function (s shaped curve)
+                       (y value 0 to 1 , x is from negative n to postive n)
+                       (so 0,0.5 is deciding part) above
+                        Sigmoid function
+                        Y =      1
+                            -----------
+                             1 + e^(-z)  
+                                                  
+                        Y = 1/(1+e^(-z))
+                        Y = Probality that (y == 1)
+                        
+                        Z = wX+b
+                        
+                        X = input features 
+                        w = weights (number of weights is equal to no of input of input features in dataset)
+                        b = bias
+                        
+                        
+Math behind the dataset => see ML/Logical Regrssion2.png
+
+
+Cost Function for Logistic Regression
+
+Loss functon (L) mainly for a large single training set as compared to the cost function (J) which deals with a penalty for a number of training sets of the complete batch. 
+    
+    L(y,y*) = -(y log y*  +  (1-y)*log(1-y*))
+
+
+    J(w,b) = 1 Σ(L(y(i),y*(i))) =  1  Σ (  y(i) log y*(i) +(1-y(i))log(1-y*(i))  ) 
+            ---                   ---
+             m                     m
+
+
+m denotes the number of data points in the training set
+
+    
+"""
+
+
+"""
+
+Gradient descent for Logistic Regression 
+    Gradient descent is an optimization alorithm used for minimizing the cost function  in various machine learning learning algorithms of the learning model 
+    w(2) = w(1) - L
+    
+    
+    Logisitic Regression model:
+        Sigmoid Function
+        Updating weights through Gradient Descent 
+        Derivatives 
+        
+"""

@@ -1,0 +1,15 @@
+* A linear Model
+* Relationship b/w 2 or more varibale.
+* Predict dependent variable based on independent variable
+
+y = ax+ b
+y = a1x1 + a2x2 + ... an xn
+
+Work flow of the Linear Regression model
+
+Step 1: Set Learning rate & number of iterations ; initiate random weight and bias value y = o(x) + o 
+Step 2: Build Linear Regression Equation (y = wx + b)
+Step 3: Find the "y pred" value for these parameters values.(difference b/w "y pred" & "true y")
+Step 4: Update the parameters values using Gradient Descent. (new weight & bias value)
+Step 5: Step 3, 4, 5 are repeated till we get minimum loss function
+Finally we will get the best model (best weight & bias value) as it has minimum loss function.add()
