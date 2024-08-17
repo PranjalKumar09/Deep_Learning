@@ -1,0 +1,12 @@
+Sample is 1 instance of real world data 
+
+ex-> Each Image is sample, its pixel is features
+
+
+Input Type              Preprocessing Needed
+---------------------------------------------------------
+Numeric       ->      Centering & scaling
+Categorical   ->      Integer encoding, one-hot encoding
+Text          ->      TF-IDF, embedding
+Image         ->      Pixel - RGB representation
+Speech        ->      Time series of numbers  

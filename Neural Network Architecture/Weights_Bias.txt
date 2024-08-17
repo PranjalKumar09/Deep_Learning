@@ -1,0 +1,6 @@
+Weights & Biases
+
+    Weights & biases represent trainable parameters in an ANN
+    Numeric values
+    Each input for each node  has wieght associated with it
+    Each node has bias associated with it

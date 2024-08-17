@@ -1,0 +1,5 @@
+camera_feed.py: Handles capturing video feed from the camera.
+person_detection.py: Contains the logic for detecting persons in the video frames.
+gender_classification.py: Implements the gender classification model.
+csv_logger.py: Manages the creation and updating of the CSV file.
+main.py: Integrates all the components together and coordinates the workflow.

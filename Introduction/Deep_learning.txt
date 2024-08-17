@@ -1,0 +1,32 @@
+Deep Learning
+    * SubSet of ML
+    * Neutral Network with three or four layers 
+    * Imitates how humans process data or make decisions
+    * Powered by advances in large scale data processing  & interface
+
+
+Application
+    * NLP
+    * Speec recongnitoin
+    * Image recongnitoin
+    * Self driving cars
+
+
+Perceptron
+    * An algorithm for supervised learning for binary classification
+    * Resemble cell in human brain
+    * A single cell neural network
+    * Perceptron are called nodes in neural network
+    * Nodes organized as layers
+    * Each node has weight , bias ans Activation function.
+
+Perceptron formula 
+    y = f(a1x1 + a2x2 + ... + (an)(xn) + b )
+                 |
+                \|/
+
+    w : weight
+    b : bias
+    f : Activation function
+    
+See picture : 

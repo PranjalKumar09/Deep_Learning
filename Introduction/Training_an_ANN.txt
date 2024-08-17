@@ -1,0 +1,20 @@
+
+Training Mean: A model is represented by parameters & hyperparameters
+    * Wights, biases , nodes ,layers, layers, etc.
+Training a model means determining best possible values for parameters & hyperparameters than  maximize accuracy
+Inputs , weights & biass might be dimansional arrays
+
+
+
+Training Process
+    Use training data (known values of inputs & outputs)
+    Create netwok architecture with intution
+    Start with random values for weghts & biases
+    Minimize error in predicting known outputs from inputs
+    Adjust weights & biases until error is minimized
+    Improve model by adjusting layers, node counts, and other hyperparameters.
+
+    
+
+
+
