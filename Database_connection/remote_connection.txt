@@ -1,0 +1,21 @@
+To do remote connection first (b/w my localhost & googlecollab)
+
+    $ sudo nano /etc/postgresql/13/main/postgresql.conf
+
+
+    Changed line 
+        # listen_addresses = localhost
+    to 
+        listen_addresses = '*'
+
+    $ sudo nano /etc/postgresql/13/main/pg_hba.conf
+    
+    Added the line 
+        host    all             all             172.25.178.0/24          md5
+
+    However it can added this line also (host    all             all             0.0.0.0/0               md5) but 172.25.178.0/24 is more secure  also it  allow connections from any IP in the 172.25.178.0 - 172.25.178.255 range.
+
+
+    
+ 
+
