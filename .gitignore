@@ -1,3 +1,9 @@
 yolov3.weights
 
 .venv
+
+Gesture/Test
+Gesture/Train
+Gesture/ucf*
+Gesture/model*
+
